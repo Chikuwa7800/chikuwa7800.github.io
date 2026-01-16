@@ -7,20 +7,13 @@ body {
 .body{
     margin: auto;
 }
+
 .footer{
     background-color: rgb(178, 178, 178);
     height: fit-content;
     width: 100%;
 }
-.ignore-header{
-    background-color: rgb(192, 218, 218);
-    width: 100%;
-    height:fit-content;
-    top: 0;
-    left: 0;
-    right: 0;
-    list-style: none;
-}
+
 .header-inside{
     max-width: 1200px;
     height: 120px;
@@ -30,20 +23,21 @@ body {
     justify-content: space-between;
     color: rgb(43, 43, 43);
 }
-.header-logo {
+
+.header-logo{
     display: block;
     justify-content: left;
-    width: 120px;
+    width: 100px;
+    text-decoration: none;
 }
+
 .header-menu ul{
     display: flex;
     justify-content: right;
 }
+
 .header-menu ul li{
     margin-left: 20px;
     margin-right: 20px;
     list-style: none;
-}
-.non-deco-link {
-    text-decoration-color: rgb(43, 43, 43);
 }
