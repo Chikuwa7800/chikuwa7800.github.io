@@ -12,7 +12,7 @@ body {
     height: fit-content;
     width: 100%;
 }
-.header{
+.ignore-header{
     background-color: rgb(192, 218, 218);
     width: 100%;
     height:fit-content;
@@ -21,9 +21,28 @@ body {
     right: 0;
     list-style: none;
 }
-.lang{
-    align-content: end;
-    text-decoration-color: rgb(43, 43, 43);
+.header-inside{
+    max-width: 1200px;
+    height: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(43, 43, 43);
+}
+.header-logo {
+    display: block;
+    justify-content: left;
+    width: 160px;
+}
+.header-menu ul{
+    display: flex;
+    justify-content: right;
+}
+.header-menu ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
 }
 .non-deco-link {
     text-decoration-color: rgb(43, 43, 43);
