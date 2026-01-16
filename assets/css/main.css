@@ -15,14 +15,14 @@ body {
 .header{
     background-color: rgb(192, 218, 218);
     width: 100%;
-    height:fit-content;
+    height:auto;
     top: 0;
     left: 0;
     right: 0;
     list-style: none;
 }
 .lang{
-    text-align: right;
+    align-content: end;
     text-decoration-color: rgb(43, 43, 43);
 }
 .non-deco-link {
