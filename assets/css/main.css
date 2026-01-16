@@ -33,7 +33,7 @@ body {
 .header-logo {
     display: block;
     justify-content: left;
-    width: 160px;
+    width: 120px;
 }
 .header-menu ul{
     display: flex;
