@@ -1,1 +1,0 @@
-# ようこそChikuwa's Campusへ!
