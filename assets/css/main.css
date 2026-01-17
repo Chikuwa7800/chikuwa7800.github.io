@@ -1,14 +1,13 @@
 body {
     background-color: rgb(221, 221, 221);
-    margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100lvh;
 }
 
 main {
     font-family:Arial, Helvetica, sans-serif;
-    display: flex;
+    flex-grow: 1;
     flex-direction: column;
 }
 
