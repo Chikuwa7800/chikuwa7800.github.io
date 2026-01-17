@@ -125,7 +125,7 @@ blockquote {
 
 .footer-menu ul{
     display: flex;
-    margin-right: 45px;
+    margin-right: 100px;
     justify-content: flex-end;
 }
 
@@ -135,8 +135,8 @@ blockquote {
 
 .footer-logo{
     display: block;
-    margin-left: 20px;
-    width: 75px;
+    margin-left: 40px;
+    width: 45px;
     text-decoration: none;
     color: rgb(43, 43, 43);
     font-size: x-large;
