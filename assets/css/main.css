@@ -60,14 +60,6 @@ footer {
     border-color:black;
 }
 
-.header-menu ul{
-    display: flex;
-}
-
-.header-menu ul li{
-    list-style: none;
-}
-
 .header-menu-img{
     width:75px;
     margin-left: 80%;
