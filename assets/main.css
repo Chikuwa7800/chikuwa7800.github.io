@@ -35,6 +35,14 @@ footer {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+blockquote {
+    border-left: 4px solid rgb(43, 43, 43);
+    margin: 1rem 0;
+    padding-left: 1rem;
+    color: rgb(31, 31, 31);
+    background-color: rgb(200, 202, 200);
+}
+
 .body{
     color: rgb(43, 43, 43);
 }
