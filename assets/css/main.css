@@ -65,12 +65,13 @@ footer {
 }
 
 .header-menu ul li{
-    margin-left:75px;
+    margin-top: 5px;
+    margin-right:75px;
     list-style: none;
 }
 
 .menu-type1 {
-    width:128px;
+    width:75px;
     display: block;
 }
 
