@@ -125,7 +125,7 @@ blockquote {
 
 .footer-menu ul{
     display: flex;
-    margin-right: 100px;
+    margin-right: 45px;
     justify-content: flex-end;
 }
 
