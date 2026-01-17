@@ -69,8 +69,13 @@ footer {
     list-style: none;
 }
 
-.header-menu-img{
+.header-button{
     display: block;
+    margin-left: 20px;
+    width: 100px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: x-large;
 }
 
 .div-for-footer{
