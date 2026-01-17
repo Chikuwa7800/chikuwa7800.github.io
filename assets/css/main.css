@@ -64,7 +64,6 @@ footer {
     display: flex;
     margin-left: auto;
     justify-content: flex-end;
-    width: 75px;
 }
 
 .header-menu ul li{
