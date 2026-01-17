@@ -60,7 +60,14 @@ footer {
     border-color:black;
 }
 
-.header-menu-img{
+.header-menu{
+    margin-left: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.header-menu img{
     width:75px;
     margin-left: 80%;
     display: flex;
