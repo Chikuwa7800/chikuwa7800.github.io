@@ -211,23 +211,27 @@ blockquote {
     grid-auto-flow: column;
     grid-gap: 24px;
     list-style-type: none;
-    width: 200px;
+    width: 800px;
 }
 
 .listing-img{
-    width: 100px !important;
-    align-items: end !important;
+    width: 200px;
+    align-items: center;
 }
 
 .listing-menu ul{
     grid-auto-flow: column;
     margin: 0;
     padding: 25px;
-    width: 200px;
+    width: 800px;
+    row-gap: 5px;
+    column-gap: 24px;
 }
 
 .listing-menu ul li{
     display: grid;
+    row-gap: 5px;
+    column-gap: 24px;
     grid-auto-flow: row;
     gap: 24px;
     width: 800px;
@@ -236,5 +240,6 @@ blockquote {
 }
 
 .listing-container{
+    min-height: unset;
     align-content: center;
 }
