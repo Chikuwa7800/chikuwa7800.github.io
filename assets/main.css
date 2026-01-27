@@ -65,7 +65,7 @@ a {
 
 .header-logo{
     display: block;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 10px;
     height: 75px;
     text-decoration: none;
@@ -81,7 +81,7 @@ a {
 }
 
 .header-button{
-    display: block;
+    display: flex;
     width: 75px;
     text-decoration: none;
     color: rgb(43, 43, 43);
@@ -89,7 +89,7 @@ a {
     border-image: round;
     border-radius: 3px;
     border-color:black;
-    margin-right: 45px;
+    margin-left: 45px;
     justify-content: flex-end;
 }
 
