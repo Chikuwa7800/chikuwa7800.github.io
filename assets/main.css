@@ -147,8 +147,7 @@ blockquote {
 
 .horizontal-menu ul{
     display: flex;
-    margin-left: 45px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .horizontal-menu ul li{
@@ -157,7 +156,6 @@ blockquote {
 
 .horizontal-menu-button{
     display: block;
-    margin-left: 20px;
     width: 200px;
     text-decoration: none;
     color: rgb(43, 43, 43);
@@ -188,7 +186,6 @@ blockquote {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    justify-content: flex-end;
 }
 
 .vartical-menu ul li{
@@ -206,4 +203,24 @@ blockquote {
     border-image: round;
     border-radius: 3px;
     border-color:black;
+}
+
+.listing-menu{
+    display: grid;
+    margin: 40px auto !important;
+    max-width: 1920px;
+    padding: 0 24px;
+    grid-gap: 24px;
+    grid-template-columns: repeat(6, 280px);
+    list-style-type: none;
+}
+
+.listing-menu ul{
+    grid-template-columns: repeat(6, minmax(280px, 348px));
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.listing-menu ul li{
+    list-style: none;
 }
