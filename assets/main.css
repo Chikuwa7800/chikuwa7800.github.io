@@ -217,14 +217,13 @@ blockquote {
 }
 
 .listing-img{
-    width: 500px;
+    width: fit-content;
     align-content:center;
 }
 
 .listing-menu ul{
     grid-auto-flow: column;
     margin: 0;
-    padding: 25px;
     width: 800px;
     row-gap: 5px;
     column-gap: 24px;
