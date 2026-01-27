@@ -208,7 +208,7 @@ blockquote {
 .listing-menu{
     display: grid;
     margin: 40px auto !important;
-    max-width: 420px;
+    width: 420px;
     padding: 0 24px;
     grid-gap: 24px;
     grid-template-columns: repeat(6, 280px);
@@ -216,11 +216,27 @@ blockquote {
 }
 
 .listing-menu ul{
-    grid-template-columns: repeat(6, minmax(280px, 348px));
     margin: 0 !important;
     padding: 0 !important;
+    grid-template-columns: repeat(6, minmax(280px, 348px));
 }
 
 .listing-menu ul li{
     list-style: none;
+}
+
+.listing-container{
+    min-height: unset;
+}
+
+.listing-header{
+    display: block;
+    flex-basis: 75%;
+    text-decoration: none;
+    width: 100%;
+    height: unset;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
