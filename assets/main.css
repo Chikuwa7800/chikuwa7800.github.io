@@ -147,7 +147,7 @@ blockquote {
 
 .horizontal-menu ul{
     display: flex;
-    margin-right: 45px;
+    margin-left: 45px;
     justify-content: flex-end;
 }
 
@@ -157,7 +157,7 @@ blockquote {
 
 .horizontal-menu-button{
     display: block;
-    margin-right: 20px;
+    margin-left: 20px;
     width: 200px;
     text-decoration: none;
     color: rgb(43, 43, 43);
@@ -185,7 +185,9 @@ blockquote {
 
 .vartical-menu ul{
     display: flex;
-    margin-right: 45px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: flex-end;
 }
 
@@ -195,7 +197,8 @@ blockquote {
 
 .vartical-menu-button{
     display: block;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     text-decoration: none;
     color: rgb(43, 43, 43);
