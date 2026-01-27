@@ -214,11 +214,15 @@ blockquote {
 
 .listing-img{
     align-content: center;
-    width: 250px;
+    width: auto;
 }
 
 .listing-menu ul li{
-    width: 420px;
+     display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, auto);
+    gap: 24px;
+    width: auto;
     border: black 2px solid;
     padding: 25px;
 }
