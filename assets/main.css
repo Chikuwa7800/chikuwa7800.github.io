@@ -209,10 +209,15 @@ blockquote {
     display: grid;
     margin: 40px auto !important;
     width: 420px;
-    padding: 0 24px;
+    border: black 2px solid;
+    padding: 25px;
     grid-gap: 24px;
     grid-template-columns: repeat(6, 280px);
     list-style-type: none;
+}
+
+.listing-img{
+    width: 250px;
 }
 
 .listing-menu ul{
@@ -227,16 +232,4 @@ blockquote {
 
 .listing-container{
     min-height: unset;
-}
-
-.listing-header{
-    display: block;
-    flex-basis: 75%;
-    text-decoration: none;
-    width: 100%;
-    height: unset;
-    word-wrap: break-word;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
 }
