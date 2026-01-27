@@ -207,10 +207,9 @@ blockquote {
 
 .listing-menu{
     display: grid;
-    margin: 40px auto !important;
+    margin: 40px auto;
     grid-auto-flow: column;
     grid-gap: 24px;
-    grid-template-columns: repeat(6, 280px);
     list-style-type: none;
     width: 800px;
 }
@@ -222,16 +221,14 @@ blockquote {
 
 .listing-menu ul{
     grid-auto-flow: column;
-    margin: 0 !important;
-    padding: 0 !important;
-    grid-template-columns: repeat(6, minmax(280px, 348px));
+    margin: 0;
+    padding: 25px;
     width: 800px;
 }
 
 .listing-menu ul li{
      display: grid;
     grid-auto-flow: row;
-    grid-template-columns: repeat(3, auto);
     gap: 24px;
     width: 800px;
     border: black 2px solid;
