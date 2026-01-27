@@ -217,8 +217,8 @@ blockquote {
     width: 250px;
 }
 
-.listing-menu ul li{
-     display: grid;
+.listing-menu-ul{
+    display: grid;
     grid-auto-flow: column;
     grid-template-rows: repeat(3, auto);
     gap: 24px;
