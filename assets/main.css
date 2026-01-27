@@ -215,8 +215,8 @@ blockquote {
 }
 
 .listing-img{
-    width: 200px;
-    align-items: center;
+    width: 400px;
+    align-content:end;
 }
 
 .listing-menu ul{
@@ -237,6 +237,7 @@ blockquote {
     width: 800px;
     border: black 2px solid;
     padding: 25px;
+    margin-top: 25px;
 }
 
 .listing-container{
