@@ -207,7 +207,7 @@ blockquote {
 
 .listing-menu{
     display: grid;
-    margin: 40px auto;
+    align-content: center;
     grid-auto-flow: column;
     grid-gap: 24px;
     list-style-type: none;
@@ -216,7 +216,7 @@ blockquote {
 
 .listing-img{
     width: 600px;
-    align-content: center;
+    align-items: center;
 }
 
 .listing-menu ul{
