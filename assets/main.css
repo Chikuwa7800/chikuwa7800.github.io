@@ -208,20 +208,13 @@ blockquote {
 .listing-menu{
     display: grid;
     margin: 40px auto !important;
-    padding: 25px;
     grid-gap: 24px;
-    border: black 2px solid;
     grid-template-columns: repeat(6, 280px);
     list-style-type: none;
 }
 
-.listing-menu-contents{
-    display: block;
-    width: 420px;
-    padding: 25px;
-}
-
 .listing-img{
+    align-content: center;
     width: 250px;
 }
 
@@ -232,9 +225,13 @@ blockquote {
 }
 
 .listing-menu ul li{
+    width: 420px;
+    border: black 2px solid;
+    padding: 25px;
     list-style: none;
 }
 
 .listing-container{
+    align-content: center;
     min-height: unset;
 }
