@@ -207,9 +207,8 @@ blockquote {
 
 .listing-menu{
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
     grid-template-columns: repeat(3, auto);
-    width: 420px;
     gap: 24px;
 }
 
@@ -219,10 +218,6 @@ blockquote {
 }
 
 .listing-menu ul li{
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(3, auto);
-    gap: 24px;
     width: 420px;
     border: black 2px solid;
     padding: 25px;
