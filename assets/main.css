@@ -206,9 +206,11 @@ blockquote {
 }
 
 .listing-menu{
-    padding-left: 0;
-   display: grid;
-    grid-auto-flow: column;
+    display: grid;
+    margin: 40px auto !important;
+    grid-gap: 24px;
+    grid-template-columns: repeat(6, 280px);
+    list-style-type: none;
 }
 
 .listing-img{
@@ -216,14 +218,18 @@ blockquote {
     width: 250px;
 }
 
-.listing-menu-ul{
-    display: grid;
+.listing-menu ul{
+    margin: 0 !important;
+    padding: 0 !important;
     grid-auto-flow: column;
-    grid-template-columns: repeat(3, auto);
-    gap: 24px;
+    grid-template-columns: repeat(6, minmax(280px, 348px));
+}
+
+.listing-menu ul li{
     width: 420px;
     border: black 2px solid;
     padding: 25px;
+    list-style: none;
 }
 
 .listing-container{
