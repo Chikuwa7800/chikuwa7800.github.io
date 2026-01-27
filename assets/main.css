@@ -289,3 +289,8 @@ a {
 .article-en-trans:active{
     content: url("img/button/007_2.png");
 }
+
+.contents{
+    color: black;
+    text-decoration: underline;
+}
