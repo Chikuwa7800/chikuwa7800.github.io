@@ -240,11 +240,21 @@ blockquote {
     gap: 24px;
     width: 800px;
     border: black 2px solid;
+    background-color: aliceblue;
     margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.listing-menu ul li:hover{
+    background-color: lightsteelblue;
+}
+
+.listing-menu ul li:active{
+    background-color: darkgray;
 }
 
 .listing-container{
-    text-decoration: none;
+    text-decoration-line: none;
     min-height: unset;
     text-align: left;
     color: darkolivegreen;
