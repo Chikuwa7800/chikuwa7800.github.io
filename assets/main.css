@@ -259,6 +259,7 @@ a {
 
 .listing-container{
     text-decoration: underline;
+    margin-left: 5px;
     min-height: unset;
     text-align: left;
     color: darkolivegreen;
@@ -266,6 +267,23 @@ a {
 
 .listing-posteddate{
     min-height: unset;
+    margin-left: 10px;
     text-align: left;
     color: rgb(0, 0, 0);
+}
+
+.article-ja-trans:hover{
+    content: url("img/button/006_1.png");
+}
+
+.article-ja-trans:active{
+    content: url("img/button/006_2.png");
+}
+
+.article-en-trans:hover{
+    content: url("img/button/007_1.png");
+}
+
+.article-en-trans:active{
+    content: url("img/button/007_2.png");
 }
