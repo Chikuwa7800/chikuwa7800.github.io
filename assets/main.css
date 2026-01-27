@@ -157,8 +157,8 @@ blockquote {
 
 .side-menu-button{
     display: block;
-    margin-left: 20px;
-    width: 125px;
+    margin-right: 20px;
+    width: 200px;
     text-decoration: none;
     color: rgb(43, 43, 43);
     font-size: x-large;
