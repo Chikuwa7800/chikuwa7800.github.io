@@ -157,6 +157,8 @@ a {
 
 .horizontal-menu ul li{
     list-style: none;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .horizontal-menu-button{
