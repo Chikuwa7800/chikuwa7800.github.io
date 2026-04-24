@@ -323,7 +323,7 @@ a {
 
 .listing-menu-side ul li{
     display: grid;
-    row-gap: 5px;
+    row-gap: 10px;
     column-gap: 24px;
     grid-auto-flow: row;
     gap: 24px;
