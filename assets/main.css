@@ -302,21 +302,21 @@ a {
     grid-auto-flow: column;
     grid-gap: 24px;
     list-style-type: none;
-    width: 400px;
+    width: 200px;
 }
 
 .listing-img-side{
-    width: 400px;
-    height:250px;
+    width: 200px;
+    height:125px;
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
 }
 
 .listing-menu-side ul{
-    grid-auto-flow: column;
+    grid-auto-flow: row;
     margin: 0;
-    width: 400px;
+    width: 200px;
     row-gap: 5px;
     column-gap: 24px;
 }
@@ -327,7 +327,7 @@ a {
     column-gap: 24px;
     grid-auto-flow: row;
     gap: 24px;
-    width: 400px;
+    width: 200px;
     border: black 2px solid;
     background-color: rgb(236, 236, 236);
     margin-top: 25px;
