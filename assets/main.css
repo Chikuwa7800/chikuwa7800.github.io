@@ -297,7 +297,7 @@ a {
 
 .listing-menu-side{
     display: grid;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     grid-auto-flow: row;
     grid-gap: 24px;
@@ -308,7 +308,7 @@ a {
 .listing-img-side{
     width: 200px;
     height:125px;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     object-fit: cover;
 }
