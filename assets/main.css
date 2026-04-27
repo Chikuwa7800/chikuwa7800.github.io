@@ -296,7 +296,7 @@ a {
 }
 
 .listing-menu-side{
-    display: grid;
+    display: flexbox;
     justify-content: flex-end;
     margin-left: 20px;
     margin-right: auto;
