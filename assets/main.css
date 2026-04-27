@@ -297,10 +297,9 @@ a {
 
 .listing-menu-side{
     display: flex;
+    flex-wrap: wrap;
     margin-left: 20px;
     margin-right: auto;
-    grid-auto-flow: row;
-    grid-gap: 24px;
     list-style-type: none;
     width: 200px;
     height: 175px;
