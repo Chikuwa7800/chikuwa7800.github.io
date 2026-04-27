@@ -314,7 +314,6 @@ a {
 }
 
 .listing-menu-side ul{
-    grid-auto-flow: column;
     margin: 0;
     width: 200px;
     row-gap: 5px;
@@ -322,10 +321,8 @@ a {
 }
 
 .listing-menu-side ul li{
-    display: grid;
     row-gap: 10px;
     column-gap: 24px;
-    grid-auto-flow: column;
     gap: 24px;
     width: 200px;
     border: black 2px solid;
