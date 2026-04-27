@@ -323,7 +323,8 @@ a {
 }
 
 .listing-menu-side ul li{
-    display: grid;
+    display: flexbox;
+    justify-content: flex-end;
     row-gap: 10px;
     column-gap: 24px;
     grid-auto-flow: row;
