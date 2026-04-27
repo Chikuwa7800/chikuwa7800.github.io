@@ -297,12 +297,12 @@ a {
 
 .listing-menu-side{
     display: grid;
-    grid-auto-flow: column;
     margin-left: 20px;
     margin-right: auto;
+    grid-auto-flow: column;
+    grid-gap: 24px;
     list-style-type: none;
     width: 200px;
-    height: 175px;
 }
 
 .listing-img-side{
@@ -314,7 +314,6 @@ a {
 }
 
 .listing-menu-side ul{
-    display: grid;
     grid-auto-flow: column;
     margin: 0;
     width: 200px;
@@ -323,8 +322,10 @@ a {
 }
 
 .listing-menu-side ul li{
+    display: grid;
     row-gap: 10px;
     column-gap: 24px;
+    grid-auto-flow: column;
     gap: 24px;
     width: 200px;
     border: black 2px solid;
