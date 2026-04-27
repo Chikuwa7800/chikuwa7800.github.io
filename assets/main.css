@@ -297,6 +297,7 @@ a {
 
 .listing-menu-side{
     display: grid;
+    justify-content: flex-end;
     margin-left: 20px;
     margin-right: auto;
     grid-auto-flow: row;
