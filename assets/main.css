@@ -296,14 +296,14 @@ a {
 }
 
 .listing-menu-side{
-    display: flexbox;
-    justify-content: flex-end;
+    display: flex;
     margin-left: 20px;
     margin-right: auto;
     grid-auto-flow: row;
     grid-gap: 24px;
     list-style-type: none;
     width: 200px;
+    height: 175px;
 }
 
 .listing-img-side{
@@ -315,7 +315,6 @@ a {
 }
 
 .listing-menu-side ul{
-    grid-auto-flow: row;
     margin: 0;
     width: 200px;
     row-gap: 5px;
@@ -323,11 +322,8 @@ a {
 }
 
 .listing-menu-side ul li{
-    display: flexbox;
-    justify-content: flex-end;
     row-gap: 10px;
     column-gap: 24px;
-    grid-auto-flow: row;
     gap: 24px;
     width: 200px;
     border: black 2px solid;
