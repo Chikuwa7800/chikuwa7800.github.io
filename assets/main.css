@@ -296,9 +296,8 @@ a {
 }
 
 .listing-menu-side{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-auto-flow: column;
     margin-left: 20px;
     margin-right: auto;
     list-style-type: none;
