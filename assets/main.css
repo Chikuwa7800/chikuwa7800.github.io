@@ -374,7 +374,7 @@ a {
     border-left: none;
 }
 .comTable img{
-    width: 100%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
