@@ -354,7 +354,6 @@ a {
     border-style: solid;
     border: 1;
     width: 300px;
-    overflow: auto;
     position: relative;
     clear: right;
     float: right;
