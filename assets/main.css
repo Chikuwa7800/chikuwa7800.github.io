@@ -373,3 +373,9 @@ a {
     border-right: none;
     border-left: none;
 }
+.comTable img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
