@@ -354,10 +354,10 @@ a {
     border-style: solid;
     border: 1;
     width: 300px;
-    clear: right;
-    float: right;
     margin: 0 0 1em 1em;
     padding: 2px;
+    float: right;
+    clear: right;
 }
 
 .comTable tr{
