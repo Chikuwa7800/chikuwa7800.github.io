@@ -376,10 +376,14 @@ a {
     border-left: none;
     border-bottom: none;
 }
-.comTable img{
-    width: 60%;
-    object-fit: cover;
+
+.comTable-img{
     border-right: none;
     border-left: none;
     border-top: none;
+}
+
+.comTable-img img{
+    width: 60%;
+    object-fit: cover;
 }
