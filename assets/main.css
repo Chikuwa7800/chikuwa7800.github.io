@@ -351,12 +351,14 @@ a {
 }
 
 .comTable{
-    border-style: solid;
-    border: 1;
-    width: 300px;
-    padding: 2px;
+    border: 1px solid;
+    margin: 0.75em 0 0.75em 1em;
+    padding: 0.25em;
     float: right;
     clear: right;
+    text-align: left;
+    font-size: 95%;
+    line-height: 1.75em;
 }
 
 .comTable tr{
