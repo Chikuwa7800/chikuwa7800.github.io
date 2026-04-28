@@ -369,6 +369,7 @@ a {
     align-content: center;
 }
 
-.comTableHead{
+.comTableContexts{
     border-right: none;
+    border-left: none;
 }
