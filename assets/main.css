@@ -365,16 +365,21 @@ a {
     padding: 2px;
 }
 
-.comTable td{
-    align-content: center;
+.comTable tr{
+     align-items: center;
+     align-self: center;
+     align-content: center;
 }
 
 .comTableContexts{
     border-right: none;
     border-left: none;
+    border-bottom: none;
 }
 .comTable img{
     width: 60%;
-    align-items: center;
     object-fit: cover;
+    border-right: none;
+    border-left: none;
+    border-top: none;
 }
