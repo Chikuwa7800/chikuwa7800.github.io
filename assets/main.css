@@ -356,6 +356,13 @@ a {
 .comTable table{
     border-style: solid;
     border: 1;
+    width: 300px;
+    overflow: auto;
+    position: relative;
+    clear: right;
+    float: right;
+    margin: 0 0 1em 1em;
+    padding: 2px;
 }
 
 .comTable td{
