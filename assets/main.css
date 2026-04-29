@@ -15,7 +15,8 @@ main {
 header {
     width: 100%;
     height: 140px;
-    padding: 2rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background-color: rgb(162, 184, 184);
     display: flex;
     flex-direction: column;
@@ -26,6 +27,7 @@ header {
 footer {
     width: 100%;
     padding: 2rem;
+    padding-bottom: 2rem;
     background: rgb(178, 178, 178);
     height:max-content;
     display: flex;
