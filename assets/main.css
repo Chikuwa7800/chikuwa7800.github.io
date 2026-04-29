@@ -352,9 +352,11 @@ a {
 
 .comTable{
     float: right;
+    clear: right;
+    direction: ltr;
     width: 300px;
     border: 1px solid;
-    margin-right: 0.25em;
+    margin-left: 1em;
     font-size: 95%;
     line-height: 1.75em;
 }
