@@ -359,6 +359,7 @@ a {
     text-align: left;
     font-size: 95%;
     line-height: 1.75em;
+    width: 300px;
 }
 
 .comTable tr{
