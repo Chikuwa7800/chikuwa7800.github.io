@@ -294,6 +294,7 @@ a {
 .contents{
     color: black;
     text-decoration: underline;
+    margin-left: 10px;
 }
 
 .listing-menu-side{
