@@ -291,10 +291,10 @@ a {
     content: url("img/button/007_2.png");
 }
 
-.contents{
+.content{
     color: black;
     text-decoration: underline;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .listing-menu-side{
