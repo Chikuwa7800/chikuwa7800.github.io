@@ -294,6 +294,9 @@ a {
 .content{
     color: black;
     text-decoration: underline;
+}
+
+.content p{
     margin-left: 30px;
 }
 
