@@ -404,11 +404,11 @@ a {
 .infoTable{
     direction: ltr;
     width: 300px;
-    border: 1px solid;
+    border-collapse: collapse;
+    border: 1px solid black;
     margin-left: 1em;
     font-size: 95%;
     line-height: 1.75em;
-    border-collapse: collapse;
 }
 
 .infoTable tr{
@@ -430,11 +430,11 @@ a {
     float: right;
     direction: ltr;
     width: 300px;
-    border: 1px solid;
+    border-collapse: collapse;
+    border: 1px solid black;
     margin-left: 1em;
     font-size: 95%;
     line-height: 1.75em;
-    border-collapse: collapse;
 }
 
 .infoTableRight tr{
