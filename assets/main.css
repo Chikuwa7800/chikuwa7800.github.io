@@ -415,10 +415,7 @@ a {
 
 .infoTable tr{
      border: 1px solid black;
-     align-items: center;
-     align-self: center;
-     align-content: center;
-     text-align: center;
+     margin: auto auto;
 }
 
 .infoTable th{
@@ -449,10 +446,7 @@ a {
 
 .infoTableRight tr{
     border: 1px solid black;
-     align-items: center;
-     align-self: center;
-     align-content: center;
-     text-align: center;
+    margin: auto auto;
 }
 
 .infoTableRight th{
