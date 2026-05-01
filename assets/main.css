@@ -361,7 +361,7 @@ a {
     margin-left: 1em;
     font-size: 95%;
     line-height: 1.75em;
-    color: rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
 }
 
 .comTable tr{
@@ -410,7 +410,7 @@ a {
     margin-left: 1em;
     font-size: 95%;
     line-height: 1.75em;
-    color: rgb(251, 252, 255);
+    background-color: rgb(251, 252, 255);
 }
 
 .infoTable tr{
@@ -441,7 +441,7 @@ a {
     margin-left: 1em;
     font-size: 95%;
     line-height: 1.75em;
-    color: rgb(251, 252, 255);
+    background-color: rgb(251, 252, 255);
 }
 
 .infoTableRight tr{
