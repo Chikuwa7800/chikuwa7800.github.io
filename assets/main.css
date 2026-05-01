@@ -400,3 +400,54 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.infoTable{
+    direction: ltr;
+    width: 300px;
+    border: 1px solid;
+    margin-left: 1em;
+    font-size: 95%;
+    line-height: 1.75em;
+    border-collapse: collapse;
+}
+
+.infoTable tr{
+     align-items: center;
+     align-self: center;
+     align-content: center;
+}
+
+.infoTable th{
+    font-size: larger;
+}
+
+.infoTable-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.infoTableRight{
+    float: right;
+    direction: ltr;
+    width: 300px;
+    border: 1px solid;
+    margin-left: 1em;
+    font-size: 95%;
+    line-height: 1.75em;
+    border-collapse: collapse;
+}
+
+.infoTableRight tr{
+     align-items: center;
+     align-self: center;
+     align-content: center;
+}
+
+.infoTableRight th{
+    font-size: larger;
+}
+
+.infoTableRight-img img{
+    width: 100%;
+    object-fit: cover;
+}
