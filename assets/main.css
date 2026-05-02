@@ -496,3 +496,30 @@ a {
 .contTable td{
     border: 1px solid black;
 }
+
+.historyTable{
+    width: auto;
+    max-width: 85%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 1em;
+    font-size: 95%;
+    line-height: 1.75em;
+    background-color: rgb(251, 252, 255);
+}
+
+.historyTable tr{
+     border: 1px solid black;
+}
+
+.historyTable th{
+    width: auto;
+    border: 1px solid black;
+    font-size: larger;
+    background-color: silver;
+}
+
+.historyTable td{
+    width: auto;
+    border: 1px solid black;
+}
