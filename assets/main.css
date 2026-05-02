@@ -49,7 +49,7 @@ a {
   text-decoration: none;
 }
 
-a li:hover{
+a :hover{
   text-decoration: underline;
 }
 
@@ -381,7 +381,7 @@ a li:hover{
 }
 
 .comTable-img img{
-    width: 100%;
+    width: 75%;
     object-fit: cover;
 }
 
@@ -407,6 +407,8 @@ a li:hover{
      align-self: center;
      align-content: center;
      text-align: center;
+     padding-right: 2px;
+     padding-left: 2px;
 }
 
 .infoTable th{
@@ -443,6 +445,8 @@ a li:hover{
     align-self: center;
     align-content: center;
     text-align: center;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .infoTableRight th{
@@ -478,6 +482,8 @@ a li:hover{
 
 .contTable tr{
      border: 1px solid black;
+     padding-right: 2px;
+     padding-left: 2px;
 }
 
 .contTable td{
@@ -497,6 +503,8 @@ a li:hover{
 
 .historyTable tr{
      border: 1px solid black;
+     padding-right: 2px;
+    padding-left: 2px;
 }
 
 .historyTable th{
