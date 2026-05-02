@@ -476,3 +476,21 @@ a {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
 }
+
+.contTable{
+    width: 300px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 1em;
+    font-size: 95%;
+    line-height: 1.75em;
+    background-color: rgb(251, 252, 255);
+}
+
+.contTable tr{
+     border: 1px solid black;
+}
+
+.contTable td{
+    border: 1px solid black;
+}
