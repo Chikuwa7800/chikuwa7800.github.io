@@ -405,6 +405,7 @@ a {
 
 .infoTable{
     width: auto;
+    max-width: 85%;
     border-collapse: collapse;
     border: 1px solid black;
     margin-left: 1em;
@@ -440,6 +441,7 @@ a {
     float: right;
     direction: ltr;
     width: auto;
+    max-width: 85%;
     border-collapse: collapse;
     border: 1px solid black;
     margin-left: 1em;
