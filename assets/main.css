@@ -49,6 +49,10 @@ a {
   text-decoration: none;
 }
 
+a li:hover{
+  text-decoration: underline;
+}
+
 .body{
     color: rgb(43, 43, 43);
 }
@@ -506,4 +510,8 @@ a {
 .historyTable td{
     width: auto;
     border: 1px solid black;
+}
+
+.pixcel-img{
+    image-rendering: pixelated;
 }
