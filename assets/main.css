@@ -415,7 +415,10 @@ a {
 
 .infoTable tr{
      border: 1px solid black;
-     margin: auto auto;
+     align-items: center;
+     align-self: center;
+     align-content: center;
+     text-align: center;
 }
 
 .infoTable th{
@@ -446,7 +449,10 @@ a {
 
 .infoTableRight tr{
     border: 1px solid black;
-    margin: auto auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
 }
 
 .infoTableRight th{
@@ -464,8 +470,7 @@ a {
 }
 
 .tocHead{
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
 }
