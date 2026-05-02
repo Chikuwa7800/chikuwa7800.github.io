@@ -369,28 +369,11 @@ a {
      align-self: center;
      align-content: center;
      text-align: center;
+     display: table-row;
 }
 
 .comTable th{
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
     font-size: larger;
-}
-
-.comTableContexts{
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-}
-
-.comTable-img{
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
 }
 
 .comTable-img img{
@@ -514,6 +497,7 @@ a {
 
 .historyTable th{
     width: auto;
+    overflow-wrap: break-word;
     border: 1px solid black;
     font-size: larger;
     background-color: silver;
