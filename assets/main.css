@@ -422,7 +422,7 @@ a :hover{
 }
 
 .infoTable-img img{
-    width: 100%;
+    width: 75%;
     object-fit: cover;
 }
 
@@ -460,7 +460,7 @@ a :hover{
 }
 
 .infoTableRight-img img{
-    width: 100%;
+    width: 75%;
     object-fit: cover;
 }
 
