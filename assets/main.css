@@ -424,6 +424,7 @@ a {
 .infoTable th{
     border: 1px solid black;
     font-size: larger;
+    background-color: silver;
 }
 
 .infoTable td{
@@ -458,6 +459,7 @@ a {
 .infoTableRight th{
     border: 1px solid black;
     font-size: larger;
+    background-color: silver;
 }
 
 .infoTableRight td{
