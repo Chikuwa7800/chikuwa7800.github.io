@@ -404,7 +404,7 @@ a {
 }
 
 .infoTable{
-    width: 300px;
+    width: auto;
     border-collapse: collapse;
     border: 1px solid black;
     margin-left: 1em;
@@ -439,7 +439,7 @@ a {
 .infoTableRight{
     float: right;
     direction: ltr;
-    width: 300px;
+    width: auto;
     border-collapse: collapse;
     border: 1px solid black;
     margin-left: 1em;
