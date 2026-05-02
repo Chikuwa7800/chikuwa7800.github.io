@@ -407,8 +407,7 @@ a :hover{
      align-self: center;
      align-content: center;
      text-align: center;
-     padding-right: 2px;
-     padding-left: 2px;
+     padding: 0.2em 0.4em;
 }
 
 .infoTable th{
@@ -445,8 +444,7 @@ a :hover{
     align-self: center;
     align-content: center;
     text-align: center;
-    padding-right: 2px;
-    padding-left: 2px;
+    padding: 0.2em 0.4em;
 }
 
 .infoTableRight th{
@@ -482,8 +480,7 @@ a :hover{
 
 .contTable tr{
      border: 1px solid black;
-     padding-right: 2px;
-     padding-left: 2px;
+     padding: 0.2em 0.4em;
 }
 
 .contTable td{
@@ -503,8 +500,7 @@ a :hover{
 
 .historyTable tr{
      border: 1px solid black;
-     padding-right: 2px;
-    padding-left: 2px;
+     padding: 0.2em 0.4em;
 }
 
 .historyTable th{
