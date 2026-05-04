@@ -81,6 +81,10 @@ a {
     font-size: xx-large;
 }
 
+.menu{
+    margin-left: 35%;
+}
+
 .header-menu ul{
     display: flex;
 }
