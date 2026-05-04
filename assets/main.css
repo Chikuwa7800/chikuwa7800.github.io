@@ -540,3 +540,7 @@ a {
     margin: auto; 
     text-align: center;
 }
+
+.mobTable td{
+    margin: 0.25em 0em;
+}
