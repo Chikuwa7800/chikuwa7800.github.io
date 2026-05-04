@@ -535,3 +535,8 @@ a {
     image-rendering: pixelated;
     margin: auto auto;
 }
+
+.mobTable{
+    margin: auto; 
+    text-align: center;
+}
