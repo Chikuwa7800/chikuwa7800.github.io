@@ -376,6 +376,7 @@ a {
      align-content: center;
      text-align: center;
      display: table-row;
+     margin-right: 1.25em;
 }
 
 .comTable th{
