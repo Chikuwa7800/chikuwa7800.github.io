@@ -45,12 +45,16 @@ blockquote {
     background-color: rgb(200, 202, 200);
 }
 
-a {
-  text-decoration: none;
+a:hover, a:focus{
+  text-decoration: underline;
 }
 
-a :hover{
-  text-decoration: underline;
+a:visited {
+    color: #001d9c;
+}
+
+a {
+  text-decoration: none;
 }
 
 .body{
@@ -407,17 +411,18 @@ a :hover{
      align-self: center;
      align-content: center;
      text-align: center;
-     padding: 0.2em 0.4em;
 }
 
 .infoTable th{
     border: 1px solid black;
     font-size: larger;
     background-color: silver;
+    padding: 0.2em 0.4em;
 }
 
 .infoTable td{
     border: 1px solid black;
+    padding: 0.2em 0.4em;
 }
 
 .infoTable-img img{
@@ -444,17 +449,18 @@ a :hover{
     align-self: center;
     align-content: center;
     text-align: center;
-    padding: 0.2em 0.4em;
 }
 
 .infoTableRight th{
     border: 1px solid black;
     font-size: larger;
     background-color: silver;
+    padding: 0.2em 0.4em;
 }
 
 .infoTableRight td{
     border: 1px solid black;
+    padding: 0.2em 0.4em;
 }
 
 .infoTableRight-img img{
@@ -483,8 +489,13 @@ a :hover{
      padding: 0.2em 0.4em;
 }
 
+.contTable th{
+    padding: 0.2em 0.4em;
+}
+
 .contTable td{
     border: 1px solid black;
+    padding: 0.2em 0.4em;
 }
 
 .historyTable{
@@ -500,7 +511,6 @@ a :hover{
 
 .historyTable tr{
      border: 1px solid black;
-     padding: 0.2em 0.4em;
 }
 
 .historyTable th{
@@ -509,11 +519,13 @@ a :hover{
     border: 1px solid black;
     font-size: larger;
     background-color: silver;
+    padding: 0.2em 0.4em;
 }
 
 .historyTable td{
     width: auto;
     border: 1px solid black;
+    padding: 0.2em 0.4em;
 }
 
 .pixcel-img{
