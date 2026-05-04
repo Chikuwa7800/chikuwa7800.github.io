@@ -82,7 +82,7 @@ a {
 }
 
 .menu{
-    margin-left: 35%;
+    margin-left: 35px;
 }
 
 .header-menu ul{
@@ -533,4 +533,5 @@ a {
 
 .pixcel-img{
     image-rendering: pixelated;
+    margin: auto auto;
 }
