@@ -548,10 +548,8 @@ a {
 .wrapList{
   display: flex;
   flex-flow: row wrap;
-  margin-right: 0.25em;
 }
 
-.flexCol{
-  display: flex;
-  flex-flow: column;
+.wrapList li{
+  margin-right: 0.25em;
 }
