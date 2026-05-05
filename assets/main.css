@@ -544,3 +544,8 @@ a {
 .mobTable td{
     padding: 1px 0.45em;
 }
+
+.wrapList{
+  display: flex;
+  flex-flow: row wrap;
+}
