@@ -549,3 +549,8 @@ a {
   display: flex;
   flex-flow: row wrap;
 }
+
+.flexCol{
+  display: flex;
+  flex-flow: column;
+}
