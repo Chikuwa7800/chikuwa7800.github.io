@@ -551,5 +551,6 @@ a {
 }
 
 .wrapList li{
-  margin-right: 0.25em;
+  margin-right: 18px;
+  margin-bottom: 4px;
 }
