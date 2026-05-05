@@ -551,6 +551,15 @@ a {
 }
 
 .wrapList li{
-  margin-left: 35px;
+  margin-left: 32px;
   margin-top: 4px;
+}
+
+.wrapList ::marker{
+    margin-left: 10px;
+}
+
+.wrapList img{
+  margin-right:2px;
+  margin-top: 2px;
 }
