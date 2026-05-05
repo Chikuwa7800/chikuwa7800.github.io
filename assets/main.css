@@ -551,10 +551,6 @@ a {
 }
 
 .wrapList li{
-  margin-right: 35px;
-  margin-bottom: 4px;
-}
-
-.wrapList img{
-  margin: auto;
+  margin-left: 35px;
+  margin-top: 4px;
 }
