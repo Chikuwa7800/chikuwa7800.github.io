@@ -95,17 +95,16 @@ a {
 
 .header-button{
     display: flex;
-    height: 75px;
+    height: 62.5px;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
     color: rgb(43, 43, 43);
     background-color: aliceblue;
     font-size: x-large;
+    border: 1px solid black;;
     border-image: round;
     border-radius: 3px;
-    border-width: 2px;
-    border-color:black;
     margin-top: 10px;
     justify-content: flex-end;
 }
