@@ -96,8 +96,10 @@ a {
 .header-button{
     display: flex;
     height: 75px;
+    padding: 5px 10px;
     text-decoration: none;
     color: rgb(43, 43, 43);
+    background-color: aliceblue;
     font-size: x-large;
     border-image: round;
     border-radius: 3px;
