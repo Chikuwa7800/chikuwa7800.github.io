@@ -109,6 +109,14 @@ a {
     justify-content: flex-end;
 }
 
+.header-button:hover,:focus{
+    background-color: rgb(184, 184, 184);
+}
+
+.header-button:active{
+    background-color: rgb(184, 184, 184);
+}
+
 .div-for-footer{
     display: grid;
     grid-template-rows: auto 1fr auto;
