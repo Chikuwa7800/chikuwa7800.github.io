@@ -96,7 +96,8 @@ a {
 .header-button{
     display: flex;
     height: 75px;
-    padding: 10px 2.5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
     color: rgb(43, 43, 43);
     background-color: aliceblue;
