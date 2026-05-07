@@ -101,6 +101,8 @@ a {
     margin-block-end: 0px !important;
     text-decoration: none;
     color: rgb(43, 43, 43);
+    word-wrap: unset !important;
+    overflow-wrap: unset !important;
 }
 
 .header-button{
