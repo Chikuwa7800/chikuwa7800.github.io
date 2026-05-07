@@ -83,7 +83,8 @@ a {
 
 .menu{
     margin-left: 60px;
-    vertical-align:middle;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .header-menu ul{
@@ -95,6 +96,7 @@ a {
 }
 
 .header-text{
+    padding-top: 10px;
     margin-block-start: 0px;
     margin-block-end: 0px;
     text-decoration: none;
