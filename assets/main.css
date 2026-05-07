@@ -94,7 +94,9 @@ a {
 }
 
 .header-text{
-    padding-bottom: 4px;
+    text-align: center;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
     text-decoration: none;
     color: rgb(43, 43, 43);
 }
