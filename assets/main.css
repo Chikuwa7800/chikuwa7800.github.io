@@ -94,7 +94,7 @@ a {
 }
 
 .header-text{
-    margin: auto;
+    padding-top: 61px;
     text-decoration: none;
     color: rgb(43, 43, 43);
 }
@@ -109,7 +109,6 @@ a {
     border: 1px solid black;;
     border-image: round;
     border-radius: 3px;
-    margin-top: 10px;
     justify-content: flex-end;
 }
 
