@@ -140,30 +140,6 @@ a {
     min-height: 100lvh;
 }
 
-.en-trans:hover{
-    content: url("img/button/002_1.png");
-}
-
-.en-trans:active{
-    content: url("img/button/002_2.png");
-}
-
-.ja-trans:hover{
-    content: url("img/button/001_1.png");
-}
-
-.ja-trans:active{
-    content: url("img/button/001_2.png");
-}
-
-.contact-trans:hover{
-    content: url("img/button/003_1.png");
-}
-
-.contact-trans:active{
-    content: url("img/button/003_2.png");
-}
-
 .img-figure{
     width: 750px;
 }
@@ -209,22 +185,6 @@ a {
     border-image: round;
     border-radius: 3px;
     border-color:black;
-}
-
-.about-ja-trans:hover{
-    content: url("img/button/004_1.png");
-}
-
-.about-ja-trans:active{
-    content: url("img/button/004_2.png");
-}
-
-.about-en-trans:hover{
-    content: url("img/button/005_1.png");
-}
-
-.about-en-trans:active{
-    content: url("img/button/005_2.png");
 }
 
 .vartical-menu ul{
@@ -313,22 +273,6 @@ a {
     color: rgb(0, 0, 0);
 }
 
-.article-ja-trans:hover{
-    content: url("img/button/006_1.png");
-}
-
-.article-ja-trans:active{
-    content: url("img/button/006_2.png");
-}
-
-.article-en-trans:hover{
-    content: url("img/button/007_1.png");
-}
-
-.article-en-trans:active{
-    content: url("img/button/007_2.png");
-}
-
 .content{
     color: black;
     text-decoration: underline;
@@ -398,6 +342,8 @@ a {
     text-align: center;
     color: black;
     font-size: xx-large;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .comTable{
