@@ -395,9 +395,9 @@ a {
     text-decoration: underline;
     margin-left: 5px;
     min-height: unset;
-    text-align: left;
+    text-align: center;
     color: black;
-    font-size: large;
+    font-size: xx-large;
 }
 
 .comTable{
