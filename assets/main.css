@@ -546,3 +546,55 @@ a {
   margin-right:2px;
   margin-top: 2px;
 }
+
+.wrap-menu{
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+    flex-flow: row wrap;
+    list-style-type: none;
+    width: 200px;
+}
+
+.wrap-img{
+    width: 200px;
+    height:125px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.wrap-menu ul{
+    margin: 0;
+    width: 200px;
+    row-gap: 5px;
+    column-gap: 24px;
+}
+
+.wrap-menu ul li{
+    row-gap: 10px;
+    column-gap: 24px;
+    gap: 24px;
+    width: 200px;
+    border: black 2px solid;
+    background-color: rgb(236, 236, 236);
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.wrap-menu ul li:hover,:focus{
+    background-color: rgb(184, 184, 184);
+}
+
+.wrap-menu ul li:active{
+    background-color: rgb(128, 128, 128);
+}
+
+.wrap-container{
+    text-decoration: underline;
+    margin-left: 5px;
+    min-height: unset;
+    text-align: left;
+    color: black;
+    font-size: small;
+}
