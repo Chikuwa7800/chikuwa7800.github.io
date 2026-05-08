@@ -250,7 +250,7 @@ a {
     margin-bottom: 15px;
 }
 
-.listing-menu ul li:hover{
+.listing-menu ul li:hover,:focus{
     background-color: rgb(184, 184, 184);
 }
 
@@ -318,7 +318,7 @@ a {
     margin-bottom: 15px;
 }
 
-.listing-menu-side ul li:hover{
+.listing-menu-side ul li:hover,:focus{
     background-color: rgb(184, 184, 184);
 }
 
