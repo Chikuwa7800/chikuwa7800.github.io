@@ -391,6 +391,15 @@ a {
     font-size: small;
 }
 
+.listing-container-big{
+    text-decoration: underline;
+    margin-left: 5px;
+    min-height: unset;
+    text-align: left;
+    color: black;
+    font-size: large;
+}
+
 .comTable{
     float: right;
     direction: ltr;
