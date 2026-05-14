@@ -582,7 +582,7 @@ a {
     margin-bottom: 15px;
 }
 
-.wrap-menu ul li:hover,:focus{
+.wrap-menu ul li:hover{
     background-color: rgb(184, 184, 184);
 }
 
