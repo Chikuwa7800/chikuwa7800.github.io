@@ -40,7 +40,8 @@ blockquote {
     border-left: 4px solid rgb(43, 43, 43);
     margin: 1rem 0;
     padding-left: 1rem;
-    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     color: rgb(31, 31, 31);
     background-color: rgb(200, 202, 200);
 }
