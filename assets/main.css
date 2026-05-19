@@ -599,3 +599,27 @@ a {
     color: black;
     font-size: small;
 }
+
+.element_bolt{
+    background-color: #ffffcb;
+}
+
+.element_fire{
+    background-color: #ffd5b5;
+}
+
+.element_ice{
+    background-color: #dafeff;
+}
+
+.element_nature{
+    background-color: #e7ffcb;
+}
+
+.element_void{
+    background-color: #fdd1ff;
+}
+
+.element_water{
+    background-color: #dedaff;
+}
