@@ -623,3 +623,7 @@ a {
 .element_water{
     background-color: #dedaff;
 }
+
+.backgroundDefault{
+    background-color: rgb(251, 252, 255);
+}
