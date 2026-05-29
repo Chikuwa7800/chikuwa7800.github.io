@@ -627,3 +627,7 @@ a {
 .backgroundDefault{
     background-color: rgb(251, 252, 255);
 }
+
+.noDotList{
+    list-style: none;
+}
