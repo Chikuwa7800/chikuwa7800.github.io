@@ -635,3 +635,8 @@ a {
 .noDotList{
     list-style: none;
 }
+
+.critical_p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
