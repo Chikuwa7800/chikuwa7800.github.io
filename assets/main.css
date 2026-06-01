@@ -640,3 +640,8 @@ a {
     margin-top: 2.5px;
     margin-bottom: 1.25px;
 }
+
+.varticalCenterP{
+    margin-top: auto;
+    margin-bottom: auto;
+}
