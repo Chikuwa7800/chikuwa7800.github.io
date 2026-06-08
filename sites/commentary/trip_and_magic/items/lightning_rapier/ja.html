@@ -42,7 +42,9 @@
     </tr>
     <tr>
         <td class="comTableContexts" width="30%">攻撃力</td>
-        <td class="comTableContexts" width="70%">4</td>
+        <td class="comTableContexts" width="70%">4
+            (<img src="/assets/img/figure/commentary/gui/heartDefaultFull.png" class="pixcel-img"><img src="/assets/img/figure/commentary/gui/heartDefaultFull.png" class="pixcel-img"><img src="/assets/img/figure/commentary/gui/heartDefaultFull.png" class="pixcel-img">)
+        </td>
     </tr>
     <tr>
         <td class="comTableContexts" width="30%">攻撃速度</td>
@@ -62,6 +64,10 @@
     <tr>
         <td class="comTableContexts" width="30%">耐久値</td>
         <td class="comTableContexts" width="70%">無し</td>
+    </tr>
+    <tr>
+        <td class="comTableContexts" width="30%">最大耐負荷力</td>
+        <td class="comTableContexts" width="70%">100</td>
     </tr>
     <tr>
         <td class="comTableContexts" width="30%">スタック</td>
@@ -84,6 +90,7 @@
         <a href="#use">用途</a>
         <ol>
             <li><a href="#attack">攻撃</a></li>
+            <li><a href="#max_damage">耐負荷力</a></li>
             <li><a href="#bolt_melee">雷傷</a></li>
             <li><a href="#bolt_breath">雷風</a></li>
         </ol>
@@ -107,35 +114,33 @@
         <th>攻撃速度</th>
         <th>クールダウン</th>
         <th>DPS</th>
-        <th>耐久値</th>
-        <th>生涯ダメージ</th>
     </tr>
     <tr>
         <td><p class="critical_p">通常</p></td>
-        <td>5</td>
-        <td rowspan="4">1.4</td>
-        <td rowspan="4">0.714秒</td>
-        <td>7.0</td>
-        <td>2500</td>
-        <td>12500</td>
+        <td>4</td>
+        <td rowspan="4">3</td>
+        <td rowspan="4">0.333秒</td>
+        <td>9.0</td>
     </tr>
     <tr>
         <td><p class="critical_p">クリティカル</p></td>
-        <td>7.5</td>
-        <td>10.5</td>
-        <td>2500</td>
-        <td>18750</td>
+        <td>6</td>
+        <td>18.0</td>
     </tr>
 </table>
-<h3 id="magic">魔法補助</h3>
-<hr>
-<p>雷のレイピアはメインハンド又はバックハンドに持つことで以下に記述した魔法を使うに有利な恩恵を受けることができる。</p>
+<h3 id="max_damage">耐負荷力</h3>
+<p>雷のレイピアには耐久値が無い代わりに、耐負荷力が存在する。最大耐負荷力は100で、これは特殊攻撃によって減少し、耐負荷力が0になると、雷のレイピアは焼き切れた状態になる。</p>
+<p>焼き切れた状態での雷のレイピアは特殊攻撃が発動できなくなる。焼き切れた状態での耐負荷力は1tick(0.05秒)ごとに1ずつ回復し、100tick(5秒)後に完全回復し、通常状態に戻る。通常状態に戻ると、再び特殊攻撃が使用可能になる。</p>
+<h3 id="bolt_melee">雷傷</h3>
+<p>雷のレイピアで攻撃をすると、以下の条件下で雷傷が発動する。雷傷が発動すると、雷のレイピアの耐負荷力が5減少する。</p>
 <ul>
-    <li>マナ容量(最大値)を100増加</li>
-    <li>マナ回復量を3増加</li>
-    <li>魔法のクールダウンを50%減少(小数点以下切り捨て)</li>
+    <li>プレイヤーの雷のレイピアが焼き切れた状態ではない</li>
+    <li>相手が無敵時間中ではない</li>
 </ul>
-<p>特に魔法のクールダウン50%減少は強力であり、普段であれば連発できない魔法も連発することができるようになる。</p>
+<p>雷傷は、攻撃した相手に付与され、雷傷が付与されたエンティティは付与されてから10tick後(0.5秒後)に4(<img src="/assets/img/figure/commentary/gui/heartDefaultFull.png" class="pixcel-img"><img src="/assets/img/figure/commentary/gui/heartDefaultFull.png" class="pixcel-img">)のダメージを受ける。</p>
+<h3 id="bolt_breath">雷風</h3>
+<p>焼き切れた状態ではない雷のレイピアを持っている時に右クリックを長押しすると、雷風が発動する。雷風が発動している最中は、雷のレイピアの耐負荷力が1tick(0.05秒)ごとに2減少する。</p>
+<p>雷風を発動すると、前方に放射状に電気を放つ。電気に触れたエンティティは1(<img src="/assets/img/figure/commentary/gui/heartDefaultHalf.png" class="pixcel-img">)のダメージを受ける。</p>
 <h2 id="repair">修理</h2>
 <hr>
 <p>雷のレイピアは、対応する素材で修理することができる。</p>
