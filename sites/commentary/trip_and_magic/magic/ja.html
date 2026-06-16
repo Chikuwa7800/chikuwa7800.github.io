@@ -78,7 +78,7 @@
 </table>
 <i>“実体はあるはずなのに、なぜ重力を無視するんだい？„</i>
 <p>右クリックで発動可能な氷属性の魔法弾を飛ばす魔法。消費マナは5、クールダウンは0.5秒。</p>
-<p>魔法弾は0.75ブロック/tickでプレイヤーの向いている方向に飛行し、着弾したエンティティに5のダメージと凍傷IIの状態異常を与える。</p>
+<p>魔法弾はプレイヤーの目線から0.75ブロック/tickでプレイヤーの向いている方向に飛行し、着弾したエンティティに5のダメージと凍傷IIIの状態異常を与える。</p>
 <p>この魔法は、氷の魔導書 Lv.1~Lv.5が放つことができる。</p>
 <h4>ハイバーラッチ</h4>
 <table class="comTable">
@@ -96,8 +96,50 @@
 <p>氷の棘は中心から2.5ブロックの当たり判定を持ち、氷の棘が伸びきった瞬間に当たり判定に触れいていたエンティティに5のダメージと1秒間の移動速度低下IIIを、氷の棘が時間経過で壊れた瞬間に当たり判定に触れいていたエンティティに6のダメージと凍傷Vの状態異常を与える。</p>
 <p>この魔法は、氷の魔導書 Lv.2~Lv.5が放つことができる。</p>
 <h4>ボレアブレス</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_ice" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/bolea_breath.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“ポータブル吹雪„</i>
+<p>左Shift(0.5秒以上1秒未満)+右クリックで発動可能なプレイヤーの前方に氷の風を5秒間出す魔法。消費マナは25、クールダウンは15秒。</p>
+<p>この魔法はプレイヤーの目線より0.45ブロック下から、1.5ブロック前方を中心点としたx、z方向3ブロック、y方向2ブロックの当たり判定と、プレイヤーの目線より0.45ブロック下から、5ブロック前方を中心としたx、z方向4ブロック、y方向3ブロックの当たり判定、プレイヤーの目線より0.45ブロック分下から、6.5ブロック前方を中心としたx、z方向5ブロック、y方向4ブロックの当たり判定を持ち、これらの当たり判定に当たったエンティティに対して、それぞれ5のダメージと凍傷VIIIと1秒間の移動速度低下II、3のダメージと凍傷IVと1秒間の移動速度低下I、1のダメージと凍傷IIを与える。</p>
+<p>この魔法は、氷の魔導書 Lv.3~Lv.5が放つことができる。また、この魔法の発動中は他の魔法が使えなくなる。</p>
 <h4>クライオスタシス</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_ice" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/cryo_stasis.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“死ななければ勝てるのだから„</i>
+<p>左Shift(1秒以上1.5秒未満)+右クリックで発動可能な10秒間防御力などが上がる魔法。消費マナは32、クールダウンは25秒。</p>
+<p>この魔法が発動すると、プレイヤーは4秒間の耐性II、10秒間の衝撃吸収IVによる衝撃吸収体力を8、10秒間の落下ダメージ倍率0.75倍を付与される。</p>
+<p>この魔法は、氷の魔導書 Lv.4~Lv.5が放つことができる。</p>
 <h4>ヴェーバルグライス</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_ice" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/verbel_glaicis.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“かすり傷では済ませないさ„</i>
+<p>左Shift(1.5秒以上)+右クリックで発動可能な10本のつららをプレイヤーの前方に打ち出す魔法。消費マナは53、クールダウンは47秒。</p>
+<p>この魔法が発動すると、ヨー方向±15°、ピッチ方向±15°からランダムな角度でつららをプレイヤーの目線から打ち出す。これは1.25ブロック/tickで飛行し、60tick(3秒)後に重力に従うようにピッチ正方向に0.5°/tick傾き、着弾したエンティティに5のダメージと切創IIIの状態異常を与える。</p>
+<p>この魔法は、氷の魔導書 Lv.5が放つことができる。</p>
 <h4></h4>
 <table class="comTable">
     <tr>
@@ -110,15 +152,87 @@
     </tr>
 </table>
 <i>“„</i>
-<p></p>
+<p>左Shift+右クリックで発動可能な--魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 
 <h3 id="bolt">雷属性</h3>
 <p>雷属性の魔法は、素早い戦闘を仕向けることができ、即座に敵を片付けることができる。</p>
 <h4>ボルトストライク</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_bolt" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/bolt_strike.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“雷にしてはあまりにも直線的すぎる„</i>
+<p>右クリックで発動可能な雷属性の魔法弾を飛ばす魔法。消費マナは8、クールダウンは0.5秒。</p>
+<p>魔法弾はプレイヤーの目線から1.5ブロック/tickでプレイヤーの向いている方向に飛行し、着弾したエンティティに5のダメージと麻痺IIIの状態異常を与える。</p>
+<p>この魔法は、雷の魔導書 Lv.1~Lv.5が放つことができる。</p>
 <h4>サンダースクリーン</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_bolt" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/thunder_screen.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“人間が得る情報は視覚が何割とか言うだろう？„</i>
+<p>左Shift+右クリックで発動可能な雷の閃光を発生させる魔法。消費マナは10、クールダウンは5秒。</p>
+<p>プレイヤーから半径5ブロック以内のエンティティに10のダメージと麻痺VIIIの状態異常を与える。また、対象のエンティティがプレイヤーの場合、15tick(0.75秒)間画面をホワイトアウトさせる。</p>
+<p>この魔法は、雷の魔導書 Lv.2~Lv.5が放つことができる。</p>
 <h4>スパークダッシュ</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_bolt" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/spark_dash.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“電光石火„</i>
+<p>左Shift長押し(0.5秒以上1秒未満)+右クリックで発動可能な--魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4>ケラウトグニル</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_bolt" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/keraut_llone.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“綺麗だろう？これがお前の最期の光景さ„</i>
+<p>左Shift長押し(1秒以上1.5秒未満)+右クリックで発動可能な5つの雷の剣を飛ばす魔法。消費マナは46、クールダウンは30秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4>アスガルスクラッシュ</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_bolt" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/asgars_verdict.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“当たれば強いんだ、当たれば„</i>
+<p>左Shift長押し(1.5秒以上)+右クリックで発動可能な--魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4>雷傷</h4>
 <h4>雷風</h4>
 <h4></h4>
@@ -144,10 +258,80 @@
 <h3 id="water">水属性</h3>
 <p>水属性の魔法は、戦闘の補助に向いており、物理攻撃と組み合わせてダメージを稼ぐことができる。</p>
 <h4>アクアショット</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_water" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/aqua_shot.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“うーむ、これも重力無視か？„</i>
+<p>右クリックで発動可能な--魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4>ウェーブサーフィン</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_water" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/wave_surfing.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“交通事故„</i>
+<p>左Shift+右クリックで発動可能な--魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4>チャルクベール</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_water" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/chalch_veil.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“水神のご加護を„</i>
+<p>左Shift長押し(0.5秒以上1秒未満)+右クリックで発動可能な--魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4>リルデルーグ</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_water" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/llyr_deluge.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“隙だらけだと思ったか? それはお前のほうだ„</i>
+<p>左Shift長押し(1秒以上1.5秒未満)+右クリックで発動可能な--魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4>ヴァルカラクミク</h4>
+<table class="comTable">
+    <tr>
+        <th class="element_water" colspan="2"></th>
+    </tr>
+    <tr>
+        <td colspan="2" class="comTable-img" width="219">
+        <img src="/assets/img/figure/commentary/trip_and_magic/magic/vel_tulnna.webp" class="comTable-img pixcel-img">
+        </td>
+    </tr>
+</table>
+<i>“どんな奴でも遠距離から撃ち抜けば死ぬんだよ„</i>
+<p>左Shift長押し(1.5秒以上)+右クリックで発動可能な即着の水のビームを放つ魔法。消費マナは--、クールダウンは--.-秒。</p>
+<p>エンティティに-のダメージと--IIの状態異常を与える。</p>
+<p>この魔法は、-の魔導書 Lv.-~Lv.-が放つことができる。</p>
 <h4></h4>
 
 <h3 id="mixed">混合属性</h3>
