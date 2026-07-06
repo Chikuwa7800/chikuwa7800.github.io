@@ -516,7 +516,7 @@ a {
 }
 
 .pixcel-img{
-    image-rendering: pixelated;
+    image-rendering: crisp-edges;
     margin: auto auto;
 }
 
