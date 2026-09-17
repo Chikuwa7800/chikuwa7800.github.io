@@ -6,8 +6,8 @@ body {
 
 main {
     font-family:Arial, Helvetica, sans-serif;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
