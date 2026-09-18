@@ -103,6 +103,10 @@ a {
     flex-wrap: nowrap;
 }
 
+.header-text:hover, .header-text:focus, .header-text:active{
+    text-decoration: none;
+}
+
 .header-text-japan {
     padding-top: 2.5px;
     margin-block-start: 0px !important;
@@ -125,7 +129,7 @@ a {
     justify-content: flex-end;
 }
 
-.header-button:hover,:focus{
+.header-button:hover, .listing-menu-side ul li{
     background-color: rgb(184, 184, 184);
 }
 
@@ -274,6 +278,9 @@ a {
     margin-left: 10px;
     text-align: left;
     color: rgb(0, 0, 0);
+}
+
+.listing-posteddate:hover, .listing-posteddate:focus, .listing-posteddate:active{
     text-decoration: none;
 }
 
@@ -326,7 +333,7 @@ a {
     background-color: rgb(215, 215, 215);
 }
 
-.listing-menu-side ul li:hover,:focus{
+.listing-menu-side ul li:hover, .listing-menu-side ul li:focus{
     background-color: rgb(184, 184, 184);
 }
 
