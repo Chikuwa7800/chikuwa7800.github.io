@@ -272,6 +272,7 @@ a {
     margin-left: 10px;
     text-align: left;
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .content{
@@ -319,6 +320,10 @@ a {
     margin-bottom: 15px;
 }
 
+.listing-menu-side ul li:visited{
+    background-color: rgb(215, 215, 215);
+}
+
 .listing-menu-side ul li:hover,:focus{
     background-color: rgb(184, 184, 184);
 }
@@ -334,6 +339,17 @@ a {
     text-align: left;
     color: darkolivegreen;
     font-size: small;
+}
+
+.listing-container-side:visited {
+    color: rgb(70, 88, 39);
+}
+.listing-container-side:hover, :visited {
+    color: rgb(62, 78, 34);
+}
+
+.listing-container-side:active {
+    color: rgb(46, 58, 25);
 }
 
 .listing-container-big{
@@ -372,7 +388,7 @@ a {
 }
 
 .comTable-img img{
-    width: 75%;
+    width: 100%;
     object-fit: cover;
 }
 
