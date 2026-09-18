@@ -249,7 +249,11 @@ a {
     margin-bottom: 15px;
 }
 
-.listing-menu ul li:hover,:focus{
+.listing-menu ul li:visited{
+    background-color: rgb(214, 214, 214);
+}
+
+.listing-menu ul li:hover, .listing-menu ul li:focus{
     background-color: rgb(184, 184, 184);
 }
 
@@ -263,17 +267,6 @@ a {
     min-height: unset;
     text-align: left;
     color: darkolivegreen;
-}
-
-.listing-container:visited {
-    color: rgb(70, 88, 39);
-}
-.listing-container:hover, :visited {
-    color: rgb(62, 78, 34);
-}
-
-.listing-container:active {
-    color: rgb(46, 58, 25);
 }
 
 .listing-posteddate{
@@ -348,17 +341,6 @@ a {
     text-align: left;
     color: darkolivegreen;
     font-size: small;
-}
-
-.listing-container-side:visited {
-    color: rgb(70, 88, 39);
-}
-.listing-container-side:hover, :visited {
-    color: rgb(62, 78, 34);
-}
-
-.listing-container-side:active {
-    color: rgb(46, 58, 25);
 }
 
 .listing-container-big{
