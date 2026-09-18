@@ -267,6 +267,17 @@ a {
     color: darkolivegreen;
 }
 
+.listing-container:visited {
+    color: rgb(70, 88, 39);
+}
+.listing-container:hover, :visited {
+    color: rgb(62, 78, 34);
+}
+
+.listing-container:active {
+    color: rgb(46, 58, 25);
+}
+
 .listing-posteddate{
     min-height: unset;
     margin-left: 10px;
